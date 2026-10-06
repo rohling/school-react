@@ -1,7 +1,18 @@
-import Image from "next/image";
+import Banner from "./conponents/Banner";
+import Footer from "./conponents/Footer";
+import Header from "./conponents/Header";
+import Main from "./conponents/Main";
+
 
 export default function Home() {
   return (
-    <h1>teste</h1>
+
+    <>
+      <Header/>
+      <Banner/>
+      <Main/>
+      <Footer/>
+    </>
+
   );
 }
