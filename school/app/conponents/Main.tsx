@@ -1,3 +1,5 @@
+import MyButton from "./MyButton";
+
 export default function () {
     return (
         <main className="grid gap-2 md:grid-cols-2 lg:grid-cols-3">
@@ -8,7 +10,7 @@ export default function () {
                 <div className="text-center text-white">
                     <h3>Curso de HTML</h3>
                     <p>Nosso curso de HTML é o melhor</p>
-                    <button className="btn-info">Informações</button>
+                    <MyButton bgColor="bg-red-400" > Informações </MyButton>
                 </div>
             </div>
             <div className="bg-[#4d4d4d] rounded-lg">
